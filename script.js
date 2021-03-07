@@ -1,5 +1,3 @@
-const body = document.querySelector("body")
-
 function makeGrid(rows, cols) {
     const mainContainer = document.querySelector(".main-container");
     mainContainer.style.setProperty('--grid-rows', rows);
