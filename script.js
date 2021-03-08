@@ -29,7 +29,6 @@ function reset() {
     };
 
 function gridSizeInput() {
-
     let gridsize = window.prompt("What size gris would you like? (max of 100)", "16");
         if (isNaN(gridsize) || gridsize > 100 || gridsize <= 0) {
         alert("Invalid Input!");
